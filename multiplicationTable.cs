@@ -8,9 +8,7 @@ contain the following:
 			0 2 4 6 
 			0 3 6 9
 */
- namespace Treehouse.CodeChallenges
-{
-    public static class MathHelpers
+    public static class practiceProblem
     {
         public static int[][] BuildMultiplicationTableJaggedArray(int maxFactor)
         {
@@ -28,7 +26,7 @@ contain the following:
         }
     }
 
-     public static class MathHelpers
+     public static class practiceProblem
     {
         public static int[,] BuildMultiplicationTable(int maxFactor)
         {
