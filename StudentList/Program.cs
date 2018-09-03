@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace School
+namespace Treehouse
 {
     class Program
     {
@@ -16,11 +16,8 @@ namespace School
             
             SchoolRoll schoolRoll = new SchoolRoll();
             schoolRoll.AddStudents(students);
-          
-          schoolRoll.Students.RemoveAt(0);
-          schoolRoll.Students.Sort();
-          
-          schoolRoll.Students.AddRange(students);
+            
+            schoolRoll.AddStudents(students);
             
             foreach(Student student in schoolRoll.Students)
             {
