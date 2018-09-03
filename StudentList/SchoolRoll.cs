@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 
-namespace Treehouse
-{
+namespace School
+    
     class SchoolRoll
     {
         private HashSet<Student> _students = new HashSet<Student>();
