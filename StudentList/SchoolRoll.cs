@@ -1,16 +1,16 @@
 using System.Collections.Generic;
 
-namespace School
+namespace Treehouse
 {
     class SchoolRoll
     {
-        private List<Student> _students = new List<Student>();
-      
-        public IEnumerable<Student> Students{ get; { return _students; } }
+        private HashSet<Student> _students = new HashSet<Student>();
+        
+        public IEnumerable<Student> Students { get { return _students; } }
         
         public void AddStudents(IEnumerable<Student> students)
         {
-            _students.AddRange(students);
+            _students.UnionWith(students);
         }
     }
 }
