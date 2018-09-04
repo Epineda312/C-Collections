@@ -1,4 +1,4 @@
-namespace Treehouse
+namespace School
 {
     class Student : System.IComparable<Student>
     {
